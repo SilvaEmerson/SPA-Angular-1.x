@@ -4,27 +4,27 @@ angular.module('aplicacao').service('AlunosCollectionService', function ($filter
     var ordenarPorNome = false;
 
     var alunos = [{
-            'nome': 'Joãozinho',
+            'nome': 'Gauss',
             'idade': 9
         },
         {
-            'nome': 'Ricardinho',
+            'nome': 'Newton',
             'idade': 11
         },
         {
-            'nome': 'Felipinho',
+            'nome': 'Leibniz',
             'idade': 11
         },
         {
-            'nome': 'Zildinha',
+            'nome': 'Euler',
             'idade': 14
         },
         {
-            'nome': 'Marianinha',
+            'nome': 'Riemann',
             'idade': 10
         },
         {
-            'nome': 'Luluzinha',
+            'nome': 'Feynman',
             'idade': 12
         }
     ];
