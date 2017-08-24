@@ -1,7 +1,5 @@
 angular.module('aplicacao').controller('PrimeiroController', function ($scope, $filter, AlunosCollectionService) {
-    $scope.nome = 'Emerson silva';
-    var nome = 'lá lá lá';
-
+    
     $scope.today = $filter('date')(new Date(), 'dd/MM/yyyy');
 
     $scope.iniciado = true;
